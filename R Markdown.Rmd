@@ -1,0 +1,25 @@
+---
+title: "Data Analysis"
+author: "Jesse Hendren-Mills"
+date: "10/23/2019"
+output: html_document
+    toc: TRUE
+    toc_depth: 2
+    toc_float: TRUE
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### *R Markdown*
+
+####### _"Description of whatever this is"_
+
+[Ford] (http://www.ford.com)
+```{r, echo = FALSE}
+DT::datatable(data=iris)
+average.width <- mean(iris$sepal.width)
+
+```
+ 
